@@ -1,0 +1,11 @@
+.queuesLists{
+    display: flex;
+    justify-content: center;
+}
+.queuee{
+    margin: 40px;
+    background-color: rgb(237, 240, 241);
+    padding: 10px;
+    border-radius: 10px;
+    width:200px;
+}

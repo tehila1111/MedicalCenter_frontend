@@ -1,0 +1,106 @@
+.sendText {
+    border: none;
+    padding: 8px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #36D1DC 0%, #142ad0  51%, #36D1DC  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    color: white;
+
+}
+
+.sendText:hover {
+    cursor: pointer;
+}
+
+.createText {
+    width: 40%;
+    background-color: #e8f0ff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    height: 50%;
+
+}
+
+.messagesScreen {
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    height: 90%;
+    overflow-y: scroll;
+
+}
+
+.messagesScreenCont {
+   
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    height: 50%;
+
+}
+
+.message {
+    width: 75%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white
+    
+}
+
+textarea {
+    height: 45%;
+    width: 80%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.messagesCont {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: inherit;
+        justify-content: center;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+.messagesTools {
+    display: flex;
+    margin-left: 10px;
+    background-color: #e8f0ff;
+    color: rgb(88, 40, 247);
+    padding: 5px;
+    border-radius: 20px;
+    width: fit-content;
+    justify-content: center;
+
+}
+
+.deleteMessage,
+.editMessage {
+    margin: 3px;
+}

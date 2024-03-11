@@ -1,0 +1,21 @@
+.roomDiv{
+    background-color:#e0f2ff;
+    padding: 10px;
+    border-radius: 10px;
+    width:100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.selectRoomCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    width:400px;
+}

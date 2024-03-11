@@ -1,0 +1,177 @@
+.monitor {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.roomMonitor {
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    height: 420px;
+    width: 300px;
+
+}
+
+.roomName {
+
+    color: rgb(88, 40, 247);
+    font-size: 20pt;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+
+
+}
+
+.currentPatientCont {
+    color: rgb(88, 40, 247);
+    font-size: 20pt;
+    background-color: rgb(231, 231, 231);
+
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.nextPatientCont {
+    font-size: 20pt;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.morePatientsCont {
+    font-size: 16pt;
+    font-weight: 700;
+    color: rgb(88, 40, 247);
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+
+.queueSizeCont {
+    color: rgb(88, 40, 247);
+    font-size: 20pt;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.queueSizeDetails {
+    background-color: #f1f1f1;
+    border-radius: 100px;
+    width:50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailTitle {
+    font-size: 14pt;
+    color: rgb(47, 47, 47);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.currentPatientDetails {
+    font-size: 40pt;
+
+}
+
+/* ----------------------------------------------------------- */
+
+.messagesBoard {
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+
+}
+
+.moving-text-container {
+    overflow: hidden;
+}
+
+
+
+.moving-text {
+    font-size: 18pt;
+    font-weight: 700;
+    color: rgb(88, 40, 247);
+    animation: moveText 20s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+
+    }
+}
+
+.monitorAllPage {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #36bedc 0%, #1224ad  51%, #36D1DC  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoImgCont{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    width:200px;
+    margin-bottom: 20px;
+}
+
+.logoImg{
+    width:130px;
+}

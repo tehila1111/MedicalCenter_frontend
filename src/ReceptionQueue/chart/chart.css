@@ -1,0 +1,42 @@
+.chartCont {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: inherit;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.reportBtnsCont{
+    display: flex;
+    justify-content: center;
+
+}
+
+.reportBtn {
+    background-color: #e8f0ff;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+}
+.chart{
+  display: flex;
+    width: 50%;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.patientsAmountCont{
+    margin: 30px;
+    background-color:  #e8f0ff;
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px;
+}

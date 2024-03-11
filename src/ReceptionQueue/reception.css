@@ -1,0 +1,201 @@
+ .moveToHeadCont {
+     display: flex;
+     flex-direction: column;
+     width: fit-content;
+     padding: 10px;
+ }
+
+ .selectPatient {
+     border-radius: 10px;
+     text-align: center;
+     padding: 7px;
+     border: none;
+     outline: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 12pt;
+ }
+
+ .scrollList {
+     overflow-y: scroll;
+     width: 250px;
+     height: 300px;
+     margin-top: 30px;
+
+ }
+
+ .patientDet {
+     margin: 10px;
+ }
+
+ .patientSearch {
+     background-color: #edefff;
+     width: 250px;
+     padding: 20px;
+     border-radius: 20px;
+     margin: 10px;
+     height: 70%;
+
+ }
+
+ .searchDiv {
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     border-radius: 10px;
+     padding: 3px;
+ }
+
+ .allPatients {
+     display: flex;
+
+ }
+
+ .controllBoard {
+     display: flex;
+     background-color: white;
+     align-items: center;
+     border-radius: 20px;
+     margin: 20px;
+     padding: 20px;
+     justify-content: center;
+     width: 70%;
+     height: inherit;
+
+ }
+
+ .details {
+     text-align: center;
+     display: flex;
+     align-items: center;
+ }
+
+ .selectedPatientDetails {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(243, 243, 243);
+     border-radius: 20px;
+     padding: 20px;
+     margin: 10px;
+     height: 70%;
+     justify-content: center;
+
+
+ }
+
+ .selPatientDetTitles {
+     font-weight: 600;
+     background-color: #1b32e4;
+     border-radius: 100px;
+     padding: 7px;
+     color: white;
+     margin: 10px;
+
+ }
+
+ .selPatientDetSection {
+     font-size: 10pt;
+     width: fit-content;
+     display: flex;
+     padding: 8px;
+     margin: 10px;
+     background-color: white;
+     color: black;
+     border-radius: 10px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 80px;
+
+ }
+
+
+ ::-webkit-scrollbar {
+     width: 12px;
+ }
+
+ ::-webkit-scrollbar-track {
+     border-radius: 10px;
+     background-color: rgb(230, 230, 230);
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background-color: #1b32e4;
+     border-radius: 10px;
+ }
+
+ ::-webkit-scrollbar-thumb:hover {
+     background: rgb(51, 30, 186);
+ }
+
+
+ .selectAction,
+ .selectRoom {
+     margin: 10px;
+     background-color: rgb(255, 255, 255);
+     padding: 10px;
+     border-radius: 10px;
+     text-align: center;
+     border: none;
+     font-weight: 600;
+     width: 170px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .moveToHeadControll {
+     margin: 10px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .moveToHeadBtn {
+     margin: 10px;
+     background-color: rgb(255, 255, 255);
+     padding: 10px;
+     border-radius: 20px;
+     text-align: center;
+     border: 1px solid #1b32e4;
+     cursor: pointer;
+     font-weight: 600;
+     width: 150px;
+     color: #1b32e4;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .moveSelects {
+     display: flex;
+ }
+
+ .finishTreatment {
+     margin: 10px;
+     background-image: linear-gradient(to right, #36addc 0%, #142ad0 51%, #36D1DC 100%);
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     box-shadow: 0 0 20px #eee;
+     padding: 10px;
+     border: none;
+     border-radius: 20px;
+     text-align: center;
+     font-weight: 600;
+     width: 150px;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     cursor: pointer;
+ }
+
+ .submitActions {
+     display: flex;
+ }
+
+ .receptionActions {
+     margin-top: 30px;
+
+ }
+
+ 
